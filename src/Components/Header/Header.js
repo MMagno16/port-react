@@ -106,7 +106,7 @@ function Header() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/MMagno16/portifolio-react"
+                href="https://github.com/MMagno16/port-react"
                 target="_blank"
                 className="fork-btn-inner"
               >

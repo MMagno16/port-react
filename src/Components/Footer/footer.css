@@ -1,6 +1,8 @@
 
+  /* cor da borda de baixo */
+  
   .footer {
-    background-color: rgb(10, 4, 22);
+    background-color: rgb(240, 215, 240);
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
@@ -36,5 +38,5 @@
   }
   
   .blockquote-footer {
-    color: #a588c0 !important;
+    color: #f8ddf4 !important;
   }

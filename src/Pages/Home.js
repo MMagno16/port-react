@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../Assets/home-main.svg";
-
+import homeLogo from "../Assets/homepic.png";
+import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 import Particle from "../Components/Particles/Particle";
 import SelfIntro from "../Components/SelfIntro/SelfIntro";

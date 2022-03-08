@@ -2,6 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCards from "../Components/ProjectCards/ProjectCards";
 import Particle from "../Components/Particles/Particle";
+import prPrincesas from "../Assets/projetoprincesas.png"
+import slideshow from "../Assets/slideshow.png"
+import semaforo from "../Assets/semaforo.png"
+import lampada from "../Assets/lampada.png"
+import formulario from "../Assets/formulario.png"
+import calculadora from "../Assets/calculadora.png"
+import conversor from "../Assets/conversor.png"
 
 function Projects() {
   return (
@@ -17,28 +24,70 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={6} className="project-card">
             <ProjectCards
-              // imgPath="https://user-images.githubusercontent.com/91063960/139678548-e58c550e-51c5-4695-a0c3-d6563737548a.png"
-              imgPath="./"
-              title="Flipkart-clone"
-              description="Flipkart is one of the best and trending eCommerce sites with a presence throughout India. The online shopping website is for Buying and Selling products online within the network.Sijeesh Miziha's Flipkart clone is a ready-made remarkable multi-vendor eCommerce site Entrepreneurs can start their own business like Flipkart, it has RazorPay Integration and get money from anywhere, in mobile, web, and iOS platforms, Completely responsive design using Material UI."              link="https://github.com/sijeeshmiziha/flipkart"
+              imgPath={calculadora}
+              title="Calculadora"
+              description="Primeiro projeto criado na imersão dev_ da Alura. Criei uma calculadora média de IMC, basicamente de template string, operações e média, usando a linguagem HTMl, CSS e JS."              
+              link="https://github.com/MMagno16/aula01"
+            />
+          </Col>
+        <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={conversor}
+              title="Conversor de Moedas"
+              description="Segundo projeto criado na imersão dev_ da Alura. Esse projeto é um conversor de moedas simples, onde colocamos o valor em dolar e ele converte para real. Utilizei funções que interagem com a tela;
+              E exibi o resultado com innerHTML; Usando a linguagem JS, HTML e CSS."              
+              link="https://github.com/MMagno16/aula02"
             />
           </Col>
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath="https://user-images.githubusercontent.com/91063960/139376405-043d6cfd-93b3-4486-a07a-2ff3382846d8.png"
-              title="Olx-clone"
-              description="Olx-Clone is the potential classified advertisement website that categorizes objects in a user-friendly manner & displayed as an advertisement.., Classifieds can be posted that involve selling, buying, exchanging and will be adding a new feture that organizing to meet people nearby your location."
-              link="https://github.com/sijeeshmiziha/olx"
+              imgPath={lampada}
+              title="Lâmpada"
+              description="Criei uma lâmpada com três ações: ligar, desligar e quebrar. Para isso, interagi com elementos HTML, eventos e utilização de funções."              
+              link="https://github.com/MMagno16/lampada"
             />
           </Col>
 
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath="https://user-images.githubusercontent.com/91063960/139381648-76a0d2e5-9375-4f5a-8399-030888d8065e.png"
-              title="Netflix-clone"
-              description="In this small project you can play trailers of the Movies..,but I will be provide regualar updates with more features and functionalities because the entertainment industry is one of the largest online service businesses. The number of people seeking online entertainment is increasing rapidly. Increased leisure time and easier access to entertainment is driving the market forward."              link="https://github.com/sijeeshmiziha/netflix"
+              imgPath={formulario}
+              title="Formulário"
+              description="Criei uma página web de formulário bem simples, apenas com HTML e CSS."              
+              link="https://github.com/MMagno16/cadastroparadev"
             />
           </Col>
+
+          
+        <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={prPrincesas}
+              title="Princesas da Disney"
+              description="Primeira aula de bootstrap do bootcamp da DIO. Onde aprendi criar uma página somente de HTML (com um pouquinho de Css). Nessa página, referenciei todas as princesas da Disney de 2022."  
+              link="https://github.com/MMagno16/aula_bootstrap"
+
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={slideshow}
+              title="SlideShow"
+              description="Criei um slideshow simples, com ações para retroceder e avançar. Utilizei no projeto alguns recursos do javascript, como por exemplo, funções do tipo arrow, template string, manipulação de elementos HTML."
+              link="https://github.com/MMagno16/slideshow"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={semaforo}
+              title="Semáforo"
+              description="Nesse projeto, criei um semáforo com ações, para ligar cada uma das cores e também inseri a opção automático. Para isso utilizei recursos do javascript como ternário, funções do tipo arrow, funções armazenadas em objetos para criar a chamada dinâmica e temporizadores. Sempre que possível criando um código limpo e semântico."              
+              link="https://github.com/MMagno16/semaforo"
+            />
+          </Col>
+
+          
+
+          
         </Row>
       </Container>
     </Container>

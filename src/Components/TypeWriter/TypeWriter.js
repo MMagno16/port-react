@@ -7,8 +7,8 @@ function TypeWriter() {
       options={{
         strings: [
           "Procuro vaga de Estágio",
-          "Oportunidade para aprender desenvolver",
-          "Home Office",
+          "Oportunidade para desenvolver",
+          "E que seja Home Office 😌😁",
         ],
         autoStart: true,
         loop: true,

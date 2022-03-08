@@ -5,46 +5,31 @@ import call from "../../Assets/contact.svg";
 
 import {
   AiFillGithub,
-  AiFillInstagram,
   AiOutlineWhatsApp,
-  
-  AiOutlineMail,
-  AiFillYoutube,
-  
+  AiOutlineMail, 
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 function Address() {
   return (
     <Container>
           <Row>
-              <Col md={12} className="address">
-              
-              
-              
-              </Col>
-     
-            <Col md={12} className="contact-image-container">
-              <img className="contact-image" src={call} alt="" />{" "}
-              
-            </Col>
-           <Row> 
-           <Col md={6} className="contact-address">
+              <Col md={12} className="address"></Col>
 
-           <h4 >Telefone</h4> 
-              
-              <p>  <AiOutlineWhatsApp/> +55 13 997450359</p>
+              <Col md={12} className="contact-image-container">
+              <img className="contact-image" src={call} alt="" />{" "}
+              </Col>
+           <Row> 
+              <Col md={6} className="contact-address">
+                 <h4 >Telefone</h4> 
+                    <p>  <AiOutlineWhatsApp/> +55 13 997450359</p>
               </Col>
               <Col md={6} className="contact-address">
-              <h4 >E-mail</h4> 
-              <p>
-                
-                <AiOutlineMail/> mmagnosorio@gmail.com
-              </p>
+                  <h4 >E-mail</h4> 
+                    <p><AiOutlineMail/> mmagnosorio@gmail.com</p>
               </Col>
+           </Row>
 
-        </Row>
-
-            <Col md={12} className="home-about-social">
+             <Col md={12} className="home-about-social">
               <h1>Contatos</h1>
               <span>
               Estou disponível em quase todas as redes sociais. 
@@ -77,15 +62,10 @@ function Address() {
                     
                   </a>
                 </li>
-
-
               </ul>
             </Col>
-           
-     
           </Row>
         </Container>
-   
   );
 }
 
