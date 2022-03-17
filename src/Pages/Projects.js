@@ -15,6 +15,8 @@ import aluraflix2 from "../Assets/aluraflix2.png"
 import tabelaclass from "../Assets/tabelaclass.png"
 import supertrunfo from "../Assets/supertrunfo.png"
 import supertrunfo2 from "../Assets/supertrunfo2.png"
+import port1 from "../Assets/port 1.png"
+
 
 function Projects() {
   return (
@@ -28,6 +30,17 @@ function Projects() {
           Aqui estão meus projetos recentes.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={port1}
+              title="Portfólio 1/2 - Alura "
+              description="Nono projeto criado na imersão dev_ da Alura. Aqui, nos auxiliaram o uso do Figma, como base, para transformar o design em código.
+              (O que foi bem banaca!)Entendi melhor, como funciona HTML e CSS.
+              Estruturei o portfólio com HTML, utilizando todas as tags necessárias pra isso. E estelizei o portfólio com CSS, inserindo os seletores, as propriedades
+              e os valores necessários para isso."              
+              link="https://github.com/MMagno16/aula09"
+            />
+          </Col>
         <Col md={6} className="project-card">
             <ProjectCards
               imgPath={supertrunfo2}

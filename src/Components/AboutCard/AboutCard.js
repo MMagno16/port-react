@@ -19,6 +19,10 @@ function AboutCard() {
             <br />
            <br />
             <br />
+            ⚡ No segundo semestre, comecei a desenvolver com a linguagem Java.
+            <br />
+           <br />
+            <br />
             ⚡ E particularmente estou estudando a lingaguem JS, juntamente com HTML e CSS, focando em desenvolvimento Back End.
  
           </p>

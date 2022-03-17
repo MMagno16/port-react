@@ -16,23 +16,26 @@ function SelfIntro() {
               Deixa <span className="purple"> eu</span> me apresentar
             </h1>
             <p className="home-about-body">
-              Me apaixonei pela programação. E por tudo que ela tem à me oferecer e eu oferecer à ela.
-              Aprendi algumas coisinhas ao longo desses últimos meses estudando na integra..
+              A programação vinha me rondando há um tempo já. E quando me permite à ela, me apaixonei!
+              E claro, que por tudo que ela tem à me oferecer e eu oferecer à ela.
               <br />
-              <br /> Estou fazendo curso introdutório de lógica de programação do Leonardo Leitão na Udemy, e também to 
+              <br /> Estou fazendo curso introdutório de lógica de programação do Leonardo Leitão na Udemy, e também estou fazendo o curso 
+              de JavaScript do Roger Melo, o CJRM.
+              <br></br>
               <br />
-               Já fiz alguns bootcamps também na DIO (JS), e participei de um intensivo na Multinacional Globant (Salesforce Apex).
+               Já fiz alguns bootcamps também na DIO (JS), participei de um intensivo de 14 dias na Multinacional Globant (Salesforce Apex),
+               participei também da Imersão_DEV da Alura, que foi sensacional. Onde todos os projetos estão no GitHub.
               <br />
               <br />
               Minhas áreas de interesse atualmente, são &nbsp;
                 <b className="purple">JAVASCRIPT, HTML e CSS.  &nbsp;</b>
-                <b>
-                 E principalmente, poder desenvolver de verdade em um  &nbsp;<b className="purple">estágio</b>.
+                <b><br></br>
+                 E meu maior foco no momento, é poder desenvolver de verdade em um  &nbsp;<b className="purple">estágio</b>.
                  </b>
               <br />
               <br />
               E sempre que sobra um tempinho, eu coloco
-              <b className="purple"> minha paixão</b> por filmes de princesas da Disney, em dia.👸🏻
+              <b className="purple"> minha outra paixão</b> por filmes de princesas da Disney, em dia.👸🏻
             </p>
           </Col>
           <Col md="4" className="myAvtar">

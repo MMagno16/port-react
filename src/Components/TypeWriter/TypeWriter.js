@@ -6,6 +6,7 @@ function TypeWriter() {
     <Typewriter
       options={{
         strings: [
+          "Estudante de Análise e desenvolvimento de sistemas",
           "Procuro vaga de Estágio",
           "Oportunidade para desenvolver",
           "E que seja Home Office 😌😁",
