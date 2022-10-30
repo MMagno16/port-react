@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap");
+
+.contact-image {
+  width: 40%;
+  position: relative;
+  left: 27%;
+}
+.address {
+  padding-top: 7em;
+}
+.contact-image-container{
+    padding-top: 1em;
+}
+
+.contact-address {
+  color: rgb(255, 255, 255);
+  padding-top: 1em;
+  text-align: center;
+}
