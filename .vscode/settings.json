@@ -3,5 +3,11 @@
         "activityBar.background": "#3F2342",
         "titleBar.activeBackground": "#59315D",
         "titleBar.activeForeground": "#FCF9FC"
-    }
+    },
+    "cSpell.words": [
+        "Avanade",
+        "Jitsu",
+        "Techstack",
+        "Toolstack"
+    ]
 }

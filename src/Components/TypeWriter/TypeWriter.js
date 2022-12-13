@@ -8,8 +8,9 @@ function TypeWriter() {
         strings: [
           "Full Stack Developer at Avanade ",
           "Specializing in Back End",
-          "In love with Disney princesses and Star Wars",
-          "And long live home office 😌😁",
+          "Jiu-Jitsu Purple Belt",
+          "In love with Disney princesses and Star Wars ...",
+          "And long live the home office 🖖",
         ],
         autoStart: true,
         loop: true,
