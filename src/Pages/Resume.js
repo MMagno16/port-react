@@ -3,7 +3,6 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Components/Particles/Particle";
 import resume from "../Assets/Marianna Magno Osório.jpg";
-//  import project from "../Assets/project-his.png";
 import pdf from "../Assets/Marianna Magno Osório.pdf";
 
 import { AiOutlineDownload } from "react-icons/ai";

@@ -9,7 +9,7 @@ import lampada from "../Assets/lampada.png"
 import formulario from "../Assets/formulario.png"
 import calculadora from "../Assets/calculadora.png"
 import conversor from "../Assets/conversor.png"
-import jogoadv from "../Assets/jogoadv.png"
+import APIrest from "../Assets/api-rest.png"
 import aluraflix from "../Assets/aluraflix.png"
 import aluraflix2 from "../Assets/aluraflix2.png"
 import tabelaclass from "../Assets/tabelaclass.png"
@@ -27,7 +27,7 @@ function Projects() {
         My recent <strong className="purple"> projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          -----------------------------------------------
+          
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={6} className="project-card">
@@ -41,14 +41,17 @@ function Projects() {
               link="https://github.com/MMagno16/aula09"
             />
           </Col>
-        <Col md={6} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCards
-              imgPath={supertrunfo2}
-              title="Meu Super-Trunfo das Princesas 2"
-              description="Oitavo projeto criado na imersão dev_ da Alura. Nesse projetinho, eu adicionei o campo imagem nos objetos com o caminho do gif e criei 
-              uma função que exibe a carta do jogador após o sorteio das cartas e outra que exibe a carta da máquina. Adicionei a moldura da carta também. Escrevi o resultado na tela após o duelo das cartas
-              informando se o jogador venceu ou perdeu a jogada."              
-              link="https://github.com/MMagno16/aula08"
+              imgPath={APIrest}
+              title="API REST com Node.JS e MongoDB!"
+              description="API baseada no framework EXPRESS para tratar as requisições e enviar as respostas no endpoints;
+              Utilizei o MongoDB como banco, porém com a ODM Mongoose;
+              Realizei as operações no MongoDB Atlas;
+              As respostas são baseadas em Json, retornando junto o status correto.
+              Instalei também o pacote Nodemon para atualizar o código em tempo real.
+              E usei o Postman para testar da API."              
+              link="https://github.com/MMagno16/API-REST"
             />
           </Col>
           <Col md={6} className="project-card">
@@ -96,12 +99,12 @@ function Projects() {
           </Col>
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath={jogoadv}
-              title="Jogo de adivinhação!"
-              description="Terceiro projeto criado na imersão dev_ da Alura. Esse projeto é um jogo de adivinhação simples, onde insiro um número aleatório no botão 'chutar', e ele me retorna
-              a resposta de acordo com o sorteio do número. Utilizei funções que interagem com a tela; Usei if, else if, else para criar a lógica do botão. 
-              Utilizei também o Math.random() para gerar números aleatórios. E exibi o resultado com innerHTML; Usando a linguagem JS, HTML e CSS."              
-              link="https://github.com/MMagno16/aula03"
+              imgPath={supertrunfo2}
+              title="Meu Super-Trunfo das Princesas 2"
+              description="Oitavo projeto criado na imersão dev_ da Alura. Nesse projetinho, eu adicionei o campo imagem nos objetos com o caminho do gif e criei 
+              uma função que exibe a carta do jogador após o sorteio das cartas e outra que exibe a carta da máquina. Adicionei a moldura da carta também. Escrevi o resultado na tela após o duelo das cartas
+              informando se o jogador venceu ou perdeu a jogada."              
+              link="https://github.com/MMagno16/aula08"
             />
           </Col>
           <Col md={6} className="project-card">
