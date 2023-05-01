@@ -93,6 +93,54 @@ function Projects() {
           </Col>
           <Col md={6} className="project-card">
             <ProjectCards
+              imgPath={formulario}
+              title="Formulário"
+              description="Criei uma página web de formulário bem simples, apenas com HTML e CSS."              
+              link="https://github.com/MMagno16/cadastroparadev"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={calculadora}
+              title="Calculadora"
+              description="Primeiro projeto criado na imersão dev_ da Alura. Criei uma calculadora média de IMC, basicamente de template string, operações e média, usando a linguagem HTMl, CSS e JS.            
+              Onde dependendo do resultado, mostrar se a pessoa está acima do peso, ou não. E qual a sua média de acordo com a avaliação dos dados inseridos.
+              Alterei o fundo da tela, colocando cores e fontes que mais achei legal.
+              Analisamos as diferenças entre HTML, CSS e JavaScript. Aprendemos a declarar variáveis e manipular os valores armazenados, usando os tipos de variáveis, como texto e inteiro;
+              E usei a função toFixed() para fixar a quantidade de casas decimais do resultado do valor inserido."
+              link="https://github.com/MMagno16/aula01"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={slideshow}
+              title="SlideShow"
+              description="Criei um slideshow simples, com ações para retroceder e avançar. Utilizei no projeto alguns recursos do javascript, como por exemplo, funções do tipo arrow, template string, manipulação de elementos HTML."
+              link="https://github.com/MMagno16/slideshow"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={semaforo}
+              title="Semáforo"
+              description="Nesse projeto, criei um semáforo com ações, para ligar cada uma das cores e também inseri a opção automático. Para isso utilizei recursos do javascript como ternário, funções do tipo arrow, funções armazenadas em objetos para criar a chamada dinâmica e temporizadores. Sempre que possível criando um código limpo e semântico."              
+              link="https://github.com/MMagno16/semaforo"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={lampada}
+              title="Lâmpada"
+              description="Criei uma lâmpada com três ações: ligar, desligar e quebrar. Para isso, interagi com elementos HTML, eventos e utilização de funções."              
+              link="https://github.com/MMagno16/lampada"
+            />
+          </Col>
+         
+
+          <Col md={6} className="project-card">
+            <ProjectCards
               imgPath={aluraflix2}
               title="AluraDisney"
               description="Quinto projeto criado na imersão dev_ da Alura. Nesse projeto, basicamente continuamos o que fizemos no projeto anterior(AluraFlix), integrando funções criadas 
@@ -115,6 +163,7 @@ function Projects() {
               link="https://github.com/MMagno16/aula04"
             />
           </Col>
+        
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath={supertrunfo2}
@@ -134,35 +183,7 @@ function Projects() {
               link="https://github.com/MMagno16/aula02"
             />
           </Col>
-        <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath={calculadora}
-              title="Calculadora"
-              description="Primeiro projeto criado na imersão dev_ da Alura. Criei uma calculadora média de IMC, basicamente de template string, operações e média, usando a linguagem HTMl, CSS e JS.            
-              Onde dependendo do resultado, mostrar se a pessoa está acima do peso, ou não. E qual a sua média de acordo com a avaliação dos dados inseridos.
-              Alterei o fundo da tela, colocando cores e fontes que mais achei legal.
-              Analisamos as diferenças entre HTML, CSS e JavaScript. Aprendemos a declarar variáveis e manipular os valores armazenados, usando os tipos de variáveis, como texto e inteiro;
-              E usei a função toFixed() para fixar a quantidade de casas decimais do resultado do valor inserido."
-              link="https://github.com/MMagno16/aula01"
-            />
-          </Col>
-          <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath={lampada}
-              title="Lâmpada"
-              description="Criei uma lâmpada com três ações: ligar, desligar e quebrar. Para isso, interagi com elementos HTML, eventos e utilização de funções."              
-              link="https://github.com/MMagno16/lampada"
-            />
-          </Col>
-          <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath={formulario}
-              title="Formulário"
-              description="Criei uma página web de formulário bem simples, apenas com HTML e CSS."              
-              link="https://github.com/MMagno16/cadastroparadev"
-            />
-          </Col>
-
+        
           
         <Col md={6} className="project-card">
             <ProjectCards
@@ -173,24 +194,7 @@ function Projects() {
 
             />
           </Col>
-          <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath={slideshow}
-              title="SlideShow"
-              description="Criei um slideshow simples, com ações para retroceder e avançar. Utilizei no projeto alguns recursos do javascript, como por exemplo, funções do tipo arrow, template string, manipulação de elementos HTML."
-              link="https://github.com/MMagno16/slideshow"
-            />
-          </Col>
-
-          <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath={semaforo}
-              title="Semáforo"
-              description="Nesse projeto, criei um semáforo com ações, para ligar cada uma das cores e também inseri a opção automático. Para isso utilizei recursos do javascript como ternário, funções do tipo arrow, funções armazenadas em objetos para criar a chamada dinâmica e temporizadores. Sempre que possível criando um código limpo e semântico."              
-              link="https://github.com/MMagno16/semaforo"
-            />
-          </Col>
-
+          
           
 
           
