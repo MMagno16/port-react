@@ -37,13 +37,13 @@ function About() {
         <h1 className="project-heading">
         Developed  <strong className="purple">Skills </strong>
         </h1>
-
+        
         <Techstack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools </strong> I use
         </h1>
-        <Toolstack />
+               <Toolstack />
       </Container>
     </Container>
   );

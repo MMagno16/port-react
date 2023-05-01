@@ -14,6 +14,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiOutlineMessage,
+  AiFillCrown,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -49,6 +50,7 @@ function Header() {
           <span></span>
           <span></span>
           <span></span>
+          <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
@@ -78,6 +80,19 @@ function Header() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certificate"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillCrown
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Achievements
               </Nav.Link>
             </Nav.Item>
 

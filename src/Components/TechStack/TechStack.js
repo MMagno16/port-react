@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+// import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiCss3,
@@ -9,7 +9,7 @@ import {
     DiNodejs,
 
 } from "react-icons/di";
-import {  SiFirebase } from "react-icons/si";
+// import {  SiFirebase } from "react-icons/si";
 
 function Techstack() {
   return (
