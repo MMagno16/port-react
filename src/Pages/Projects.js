@@ -12,8 +12,8 @@ import conversor from "../Assets/conversor.png"
 import APIrest from "../Assets/api-rest.png"
 import aluraflix from "../Assets/aluraflix.png"
 import aluraflix2 from "../Assets/aluraflix2.png"
-import tabelaclass from "../Assets/tabelaclass.png"
-import supertrunfo from "../Assets/supertrunfo.png"
+import doAmor from "../Assets/doAmor.png"
+import atvextensionista from "../Assets/atvextensionista.png"
 import supertrunfo2 from "../Assets/supertrunfo2.png"
 import port1 from "../Assets/port 1.png"
 
@@ -29,19 +29,9 @@ function Projects() {
         <p style={{ color: "white" }}>
           
         </p>
+        
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath={port1}
-              title="Portfólio 1/2 - Alura "
-              description="Nono projeto criado na imersão dev_ da Alura. Aqui, nos auxiliaram o uso do Figma, como base, para transformar o design em código.
-              (O que foi bem banaca!)Entendi melhor, como funciona HTML e CSS.
-              Estruturei o portfólio com HTML, utilizando todas as tags necessárias pra isso. E estelizei o portfólio com CSS, inserindo os seletores, as propriedades
-              e os valores necessários para isso."              
-              link="https://github.com/MMagno16/aula09"
-            />
-          </Col>
-          <Col md={6} className="project-card">
             <ProjectCards
               imgPath={APIrest}
               title="API REST com Node.JS e MongoDB!"
@@ -56,21 +46,49 @@ function Projects() {
           </Col>
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath={supertrunfo}
-              title="Meu Super-Trunfo das Princesas"
-              description="Sétimo projeto criado na imersão dev_ da Alura. Nesse projeto criei as cartas do jogo e defini os atributos. Desenvolvi uma função para sortear uma carta para o jogador e outra para a máquina. 
-              Fazendo, com que exiba os atributos das cartas na tela para o jogador obter o escolhido e comparar o mesmo, de ambas as cartas e definir um vencedor."        
-              link="https://github.com/MMagno16/aula07"
+              imgPath={atvextensionista}
+              title="Atividade Extensionista II - Faculdade Uninter"
+              description=" 💡Ideia do projeto:
+              Criar um formulário simples, onde os alunos interessados possam se cadastrar para as aulas.
+              Objetivo:
+              Colocar em prática alguns aprendizados sobre formulários.
+              Também utilizei neste projeto uma imagem de fundo fixa.
+              🛠 Tecnologias utilizadas:
+              HTML5
+              CSS3
+              🎨 Design
+              Visual
+              Cores
+              Fonte
+              📝 Coisas novas que aprendi:
+              Mudar a cor do campo quando clicado
+              💬 Sugestões:
+              Fico aberta a sugestões de melhoria e ideias, caso você tenha alguma basta me enviar uma mensagem."        
+              link="https://github.com/MMagno16/atvextensionistaII.git"
             />
           </Col>
+        <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath={port1}
+              title="Portfólio - Alura "
+              description="Nono projeto criado na imersão dev_ da Alura. Aqui, nos auxiliaram o uso do Figma, como base, para transformar o design em código.
+              (O que foi bem banaca!)Entendi melhor, como funciona HTML e CSS.
+              Estruturei o portfólio com HTML, utilizando todas as tags necessárias pra isso. E estelizei o portfólio com CSS, inserindo os seletores, as propriedades
+              e os valores necessários para isso."              
+              link="https://github.com/MMagno16/aula09"
+            />
+          </Col>
+          
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath={tabelaclass}
-              title="Tabela Classificatória"
-              description="Sexto projeto criado na imersão dev_ da Alura. Nesse projeto, removi o código estático do HTML. Criei um objeto no Javascript para cada jogador. Criei também uma função que receba
-              um objeto como parâmetro para calcular os pontos, e exibir o objeto na página HTML; Criei uma função para adicionar vitória, outra para adicionar empate e uma última para adicionar derrota;
-              Recalculei os pontos quando a vitória ou o empate for adicionado."            
-              link="https://github.com/MMagno16/aula06"
+              imgPath={doAmor}
+              title="Atividade Extensinista I - Faculdade Uninter"
+              description="Projeto DoAmor foi desenvolvido para Atividade Extensionista I da faculdade Uninter, onde criei um site
+              para juntar todas as ONG's que aceitam arrecadações para futuras doações de roupas, brinquedos, livros e entre outras opções. A intenção do projeto foi juntar essas ONG's em uma única página,
+              para que se torne de fácil busca, quando alguém se interessar em fazer uma doação; Podendo escolher qual ONG mais se indentifica.
+              Usei nesse projeto, HTML e CSS puro, importei a fonte de minha preferência e brinquei bastante com as infinitas possibilidades
+              de deixar um site mais dinâmico e bonito. Aceito sugestões e ideias para melhorar a estrutura do mesmo! =)"            
+              link="https://github.com/MMagno16/atividade-extensionista-I.git"
             />
           </Col>
           <Col md={6} className="project-card">
