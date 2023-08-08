@@ -7,6 +7,7 @@ import Particle from "../Components/Particles/Particle";
 import pl100 from "../Assets/pl100.png";
 import ai102 from "../Assets/ai102.png";
 import sc900 from "../Assets/sc900.png";
+import ssc900 from "../Assets/ssc900.png";
 import microsoftcomm from "../Assets/microsoftcomm.png";
 import microsoftcommm from "../Assets/microsoftcommm.png";
 import dthinking from "../Assets/dthinking.png";
@@ -32,12 +33,24 @@ function Certificate() {
         </h1>
         <p style={{ color: "white" }}></p>
 
+        
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={6} className="certificate-card">
+            <CertificateCards
+              imgPath={sc900}
+              title="SC-900"
+              description="Exame SC-900: Fundamentos de segurança, conformidade e identidade da Microsoft. Este exame é direcionado àqueles que desejam se familiarizar com os fundamentos de SCI (segurança, conformidade e identidade) em serviços Microsoft relacionados e baseados em nuvem."
+              link="https://www.credly.com/badges/3cf90008-dfef-48a4-b128-c5ad34a59d39/linked_in_profile"
+            />
+          </Col>
+
           <Col md={6} className="certificate-card">
             <CertificateCards
               imgPath={ai900}
               title="AI-900"
-              description="Este exame é uma oportunidade para demonstrar conhecimento sobre os conceitos de ML (machine learning) e IA (inteligência artificial) e serviços relacionados do Microsoft Azure."
+              description="Exame AI-900: Este exame é uma oportunidade para demonstrar conhecimento sobre os conceitos de ML (machine learning) e IA (inteligência artificial) e serviços relacionados do Microsoft Azure."
               link="https://www.credly.com/badges/e7a896db-3a29-4c9d-b653-c51df6e4b6f5"
             />
           </Col>
@@ -71,7 +84,7 @@ function Certificate() {
 
           <Col md={6} className="certificate-card">
             <CertificateCards
-              imgPath={sc900}
+              imgPath={ssc900}
               title="SC-900"
               description=" Certificado interno KaSolution - Exame SC-900: Fundamentos de segurança, conformidade e identidade da Microsoft. Este exame é direcionado àqueles que desejam se familiarizar com os fundamentos de SCI (segurança, conformidade e identidade) em serviços Microsoft relacionados e baseados em nuvem."
               link="https://www.linkedin.com/posts/marianna-magno_sc-900-activity-7053471091188465664-xGr6?utm_source=share&utm_medium=member_desktop"
