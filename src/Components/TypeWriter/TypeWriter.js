@@ -7,7 +7,7 @@ function TypeWriter() {
       options={{
         strings: [
           "Full Stack Developer at Avanade ",
-          "2x Certificate Microsoft",
+          "3x Certificate Microsoft",
           "Specializing in Back End",
           "Jiu-Jitsu Purple Belt",
           "In love with Disney princesses and Star Wars ...",
